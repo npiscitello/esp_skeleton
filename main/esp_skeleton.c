@@ -4,10 +4,13 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 
+#include "hello_world_func.h"
+
 
 void app_main()
 {
-    printf("Hello world!\n");
+    //printf("Hello world!\n");
+    hello_world();
 
     /* Print chip information */
     esp_chip_info_t chip_info;
